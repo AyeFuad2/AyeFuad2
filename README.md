@@ -57,4 +57,4 @@ Java web application deployed and configured on an AWS EC2 instance.
 
 ---
 
-*B.S. Information Systems · UT Arlington · GPA 3.5 · Volunteer, Amoud Foundation since 2013*
+*B.S. Information Systems · UT Arlington · GPA 3.5 
