@@ -55,16 +55,6 @@ Reproduce → Gather Evidence → Identify Root Cause → Fix → Verify
 
 ---
 
-### [Terraform Mastery — Terraform Associate 004](https://github.com/AyeFuad2/Terraform-Associate-Certification) 🆕
-
-Built a structured Terraform learning and certification repository covering the Terraform Associate 004 exam domains. Includes study notes, runnable hands-on Terraform examples, a 10-day preparation guide, and 540 practice questions across nine domains.
-
-The repository focuses on practical Infrastructure as Code concepts including modules, state management, variables, outputs, `count`, `for_each`, Terraform CLI workflows, backends, drift, HCP Terraform, and safe credential handling.
-
-**Technologies:** Terraform, HCL, HCP Terraform, Infrastructure as Code, Git
-
----
-
 ### [Azure Privileged Access & Advanced Support Lab](https://github.com/AyeFuad2/azure-privileged-access-support-lab) — In Progress
 
 Enterprise-style Azure lab focused on privileged access, Active Directory, DNS, Windows and Linux administration, Azure Key Vault, monitoring, PowerShell automation, SQL connectivity, and structured troubleshooting scenarios.
