@@ -1,33 +1,69 @@
 # Hi, I'm Fuad Aye 👋
 
-### Technical Support Engineer | Cloud Infrastructure | AWS & Azure | Terraform
+### Technical Support Engineer | Cloud Infrastructure | AWS | Terraform | DevOps
 
-I'm a Technical Support Engineer with hands-on experience troubleshooting enterprise SaaS applications across application, database, Windows, identity, and network layers. I enjoy turning complex technical incidents into clear solutions, documentation, and repeatable infrastructure.
+I'm a Technical Support Engineer with hands-on experience troubleshooting enterprise SaaS applications across application, database, Windows, identity, and network layers. Outside of work, I build practical cloud and DevOps projects to strengthen my infrastructure, automation, troubleshooting, and incident-response skills.
 
-* 🔧 Supporting enterprise SaaS environments at **Trintech**
-* ☁️ Building hands-on projects with **AWS, Azure, Terraform, Windows Server, and Linux**
-* 🔐 Developing skills in **identity management, privileged access, cloud security, and automation**
-* 🎯 Interested in **Cloud Support, Infrastructure, Systems, Technical Support, and DevOps roles**
-* 📍 Based in Dallas, TX and open to relocation
+* 🔧 Supporting enterprise SaaS production environments at **Trintech**
+* ☁️ Building hands-on projects with **AWS, Azure, Terraform, Docker, Kubernetes, and Linux**
+* 🛠️ Focused on **incident response, troubleshooting, automation, CI/CD, APIs, and cloud infrastructure**
+* 📚 Building structured labs and study resources around Terraform, AWS, networking, and support operations
+* 🎯 Interested in **Cloud Support, Infrastructure, Systems, Technical Support, Production Support, and DevOps roles**
+* 📍 Based in Plano, TX and open to relocation
 
 ---
 
 ## 🛠️ Technical Skills
 
-| Area                        | Technologies                                                                                   |
-| --------------------------- | ---------------------------------------------------------------------------------------------- |
-| **Cloud**                   | AWS, Microsoft Azure                                                                           |
-| **Infrastructure as Code**  | Terraform, AWS CloudFormation                                                                  |
-| **Systems & Identity**      | Windows Server, Linux, Active Directory, Microsoft Entra ID, DNS, Group Policy                 |
-| **Containers**              | Docker, Kubernetes, Amazon EKS, Amazon ECR                                                     |
-| **Programming & Scripting** | Python, PowerShell, Bash, SQL                                                                  |
-| **Applications & APIs**     | REST APIs, JSON, Flask, API Gateway, AWS Lambda                                                |
-| **Networking & Security**   | TCP/IP, HTTP/HTTPS, TLS, VPN, IAM, Security Groups, Network Security Groups                    |
-| **Support & Operations**    | Root-cause analysis, log analysis, incident management, runbooks, Salesforce, Jira, CloudWatch |
+| Area                        | Technologies                                                                                                  |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Cloud**                   | AWS, Microsoft Azure, EC2, ECR, EKS, S3, Lambda, API Gateway, IAM, CloudWatch                                 |
+| **Infrastructure as Code**  | Terraform, AWS CloudFormation, HCL                                                                            |
+| **CI/CD & DevOps**          | Jenkins, GitHub, Docker, Jenkins Pipelines, SCM Polling, CI/CD, Amazon ECR                                    |
+| **Systems & Identity**      | Windows Server, Linux, Active Directory, Microsoft Entra ID, DNS, Group Policy, PowerShell                    |
+| **Containers**              | Docker, Kubernetes, Amazon EKS, Amazon ECR, NGINX                                                             |
+| **Programming & Scripting** | Python, PowerShell, Bash, SQL, Java, Groovy                                                                   |
+| **APIs & Web**              | REST APIs, JSON, Postman, Chrome DevTools, Flask, Node.js, API Gateway                                        |
+| **Networking & Security**   | TCP/IP, HTTP/HTTPS, TLS, VPN, IAM, Security Groups, DNS, network troubleshooting                              |
+| **Support & Operations**    | Root-cause analysis, log analysis, incident response, troubleshooting, runbooks, Salesforce, Jira, CloudWatch |
 
 ---
 
 ## 🚀 Featured Projects
+
+### [Jenkins CI/CD Pipeline — GitHub → Docker → Amazon ECR](https://github.com/AyeFuad2/jenkins-cicd-demo) 🆕
+
+Built a working cloud-based CI pipeline using Jenkins on Amazon EC2. A GitHub source change is detected through SCM polling, the application is containerized with Docker, smoke-tested, tagged with the Jenkins build number, and published to a private Amazon ECR repository.
+
+The project also uses an EC2 IAM role for temporary AWS credentials instead of storing long-term access keys and includes troubleshooting around Java packages, Docker permissions, Jenkins, AWS CLI, and Linux services.
+
+**Technologies:** AWS EC2, Amazon ECR, IAM, Systems Manager, Jenkins, Docker, GitHub, Linux, NGINX, Bash, Groovy
+
+---
+
+### [API Incident Lab — Evidence-First REST API Troubleshooting](https://github.com/AyeFuad2/api-incident-lab) 🆕
+
+Built a realistic broken order-dashboard scenario and investigated multiple API incidents using an evidence-first troubleshooting workflow. Used Chrome DevTools, Postman, server logs, and Node.js to isolate frontend, API, and backend problems before making targeted fixes.
+
+Investigated an HTTP 404 route mismatch, response-contract mismatch, backend latency, and safe HTTP 500 error handling. Each issue followed the same process:
+
+```text
+Reproduce → Gather Evidence → Identify Root Cause → Fix → Verify
+```
+
+**Technologies:** Node.js, REST APIs, Postman, Chrome DevTools, JavaScript, JSON, Windows PowerShell
+
+---
+
+### [Terraform Mastery — Terraform Associate 004](https://github.com/AyeFuad2/Terraform-Associate-Certification) 🆕
+
+Built a structured Terraform learning and certification repository covering the Terraform Associate 004 exam domains. Includes study notes, runnable hands-on Terraform examples, a 10-day preparation guide, and 540 practice questions across nine domains.
+
+The repository focuses on practical Infrastructure as Code concepts including modules, state management, variables, outputs, `count`, `for_each`, Terraform CLI workflows, backends, drift, HCP Terraform, and safe credential handling.
+
+**Technologies:** Terraform, HCL, HCP Terraform, Infrastructure as Code, Git
+
+---
 
 ### [Azure Privileged Access & Advanced Support Lab](https://github.com/AyeFuad2/azure-privileged-access-support-lab) — In Progress
 
@@ -61,14 +97,6 @@ Built the same AWS web-server environment manually and through Terraform to comp
 
 ---
 
-### [FreshRewards Membership & Rewards API](https://github.com/AyeFuad2/FreshRewards)
-
-Expanded a grocery-store membership case study into a backend prototype with relational database design, rewards calculations, REST API endpoints, health checks, SQL reports, troubleshooting documentation, and unit tests.
-
-**Technologies:** Python, Flask, PostgreSQL, SQL, REST APIs, JSON, Pytest
-
----
-
 ### [Flask Application Deployment to Amazon EKS](https://github.com/AyeFuad2/Kubernetes-manifests)
 
 Created Kubernetes Deployment and Service manifests for a containerized Flask backend stored in Amazon ECR. Configured three pod replicas, NodePort networking, rolling updates, self-healing, and troubleshooting commands.
@@ -85,11 +113,11 @@ Provisioned an Amazon EKS cluster and managed node group using eksctl and CloudF
 
 ---
 
-### [Java Web Application Deployment with AWS CI/CD](https://github.com/AyeFuad2/nextwork-web-project)
+### [FreshRewards Membership & Rewards API](https://github.com/AyeFuad2/FreshRewards)
 
-Developed and deployed a Java web application from an AWS EC2 development environment while documenting the Git and GitHub workflow and the planned AWS build-and-deployment pipeline.
+Expanded a grocery-store membership case study into a backend prototype with relational database design, rewards calculations, REST API endpoints, health checks, SQL reports, troubleshooting documentation, and unit tests.
 
-**Technologies:** Java, Maven, AWS EC2, Git, GitHub, AWS CI/CD services
+**Technologies:** Python, Flask, PostgreSQL, SQL, REST APIs, JSON, Pytest
 
 ---
 
@@ -101,11 +129,20 @@ Cloud portfolio showcasing an AI-powered study assistant built with a serverless
 
 ---
 
-## 📜 Certifications & Current Learning
+## 🧪 Current Builds & Learning
+
+* **IncidentLens** — building an incident-response and troubleshooting project focused on turning operational signals into useful investigation workflows
+* **AWS WireGuard VPN** — exploring secure private connectivity and VPN infrastructure on AWS
+* **Terraform Associate** — building deeper practical knowledge through hands-on labs and certification preparation
+* **API troubleshooting** — practicing evidence-driven debugging with Postman, browser developer tools, logs, HTTP status codes, JSON, and REST APIs
+* **CI/CD** — expanding the Jenkins → Docker → ECR pipeline toward future Kubernetes/EKS deployment workflows
+
+---
+
+## 📜 Certifications
 
 * **AWS Certified Solutions Architect – Associate** — April 2026
 * **HashiCorp Certified: Terraform Associate** — In Progress
-* Currently developing deeper skills in Azure infrastructure, privileged access, PowerShell automation, networking, and cloud troubleshooting
 
 ---
 
